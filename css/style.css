@@ -7,7 +7,7 @@
  
 body {
   padding-top: 54px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 14px;
   color: #4e3914;
 }
@@ -575,7 +575,7 @@ footer p {
 	margin: 0 auto;
 	text-align: center;
 }
-.error-contents{}
+
 .pricing-box{
 	padding: 30px 0px;
 }
@@ -628,8 +628,19 @@ footer p {
 	color: #fff;
 	padding: 0px 15px;
 }
-
-
+.bg-cor{
+	background-color: #376a2d;
+}
+.bg-cor-1{
+	background-color: #34aa1d;
+}
+.cor-texto{
+	color: rgb(249, 249, 249);
+	font-size: 1em;
+}
+.altura{
+	height: 20%;
+}
 @media (min-width:768px) and (max-width:991px){
 	.navbar-expand-lg.top-nav .navbar-nav .nav-link.dropdown-toggle::after{
 		position: absolute;
